@@ -113,3 +113,18 @@ a.button:hover
     font-size: 25px;
     color: #ffffff;
 }
+
+.swiper-pagination-bullet
+{
+    opacity: 1;
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    visibility: hidden;
+}
+
+.swiper-pagination-bullet-active
+{
+    border: 2px solid #ffffff;
+    background-color: #c87e4f;
+}
