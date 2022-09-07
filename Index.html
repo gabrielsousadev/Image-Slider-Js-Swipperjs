@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <title>Image Slider</title>
 </head>
 <body>
-    <section class="main">
-        <div class="wrapper">
-            <div class="slide">
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
                 <img src="./assets/alex-lvrs-sRcKPJc81xw-unsplash.jpg" alt="" class="image" />
                 <div class="image-data">
                     <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
@@ -20,7 +21,32 @@
                     <a href="#" class="button">About Us</a>
                 </div>
             </div>
+            <div class="slide swiper-slide">
+                <img src="./assets/tristan-boucher-O5F6wSBXbZ4-unsplash.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                    <h2>Lorem ipsum dolor <br/>
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <a href="#" class="button">About Us</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="./assets/tristan-boucher-rZgoIaGcveE-unsplash.jpg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                    <h2>Lorem ipsum dolor <br/>
+                        Lorem ipsum dolor sit amet.
+                    </h2>
+                    <a href="#" class="button">About Us</a>
+                </div>
+            </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </section>
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./swiperInitializer.js"></script>
 </body>
 </html>
