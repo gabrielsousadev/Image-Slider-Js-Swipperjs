@@ -27,7 +27,6 @@
 
 .slide::before
 {
-    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
@@ -65,67 +64,42 @@
     font-size: 2.81rem;
     font-weight: 600;
     color: #ffffff;
+    margin: 0 0.625rem 0 0.625rem;
 }
 
 a.button
 {
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 25px;
-    color: #333;
+    padding: 0.625rem 1.25rem;
+    border-radius: 1.5625rem;
+    color: #7fa0ac;
     background: #ffffff;
     text-decoration: none;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     transition: all 0.3s ease;
 }
 
 a.button:hover
 {
     color: #ffffff;
-    background-color: #c87e4f;
-}
-
-.nav-btn
-{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-
-.nav-btn:hover
-{
-    background: rgba(255, 255, 255, 0.4);
-}
-
-.swiper-button-next
-{
-    right: 50px;
-}
-
-.swiper-button-prev
-{
-    left: 50px;
+    background-color: #7fa0ac;
 }
 
 .nav-btn::before, .nav-btn::after
 {
-    font-size: 25px;
     color: #ffffff;
 }
 
 .swiper-pagination-bullet
 {
-    opacity: 1;
-    height: 12px;
-    width: 12px;
     background-color: #ffffff;
     visibility: hidden;
 }
 
 .swiper-pagination-bullet-active
 {
-    border: 2px solid #ffffff;
-    background-color: #c87e4f;
+    border: 0.125rem solid #ffffff;
+    background-color: #7fa0ac;
 }
 
 @media screen and (max-width: 768px)
