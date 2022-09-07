@@ -128,3 +128,16 @@ a.button:hover
     border: 2px solid #ffffff;
     background-color: #c87e4f;
 }
+
+@media screen and (max-width: 768px)
+{
+    .nav-btn
+    {
+        visibility: hidden;
+    }
+
+    .swiper-pagination-bullet
+    {
+        visibility: visible;
+    }
+}
